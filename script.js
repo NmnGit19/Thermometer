@@ -19,6 +19,7 @@ function tempLoad() {
     }, 4000);
 }
 tempLoad();
+setInterval(tempLoad, 5000);
 
 
 
