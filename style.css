@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: orange; 
+    font-family: 'Poppins', sans-serif;
+}
+#container{
+    margin: auto;
+    width: 60rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+.main-heading{
+    font-size: 60px;
+}
+.main-heading span{
+    font-size: 200px;
+}
+
+@media(max-width: 450px){
+    body{
+        height: 100vh;
+    }
+    #container{
+        margin: auto;
+        width: auto;
+        display: inline-table;
+    }
+    .main-heading{
+        font-size: 25px;
+    }
+    .main-heading span{
+        font-size: 250px;
+    }
+}
